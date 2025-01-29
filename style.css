@@ -13,15 +13,15 @@ body {
 
 /* Custom properties for our color scheme */
 :root {
-  --forest-green: #397f39;
-  --lime-light: #bee674;
-  --lime: #a2c471;
-  --yellow: #f6e64b;
+  --forest-green: #387F39;
+  --lime-light: #BEDC74;
+  --lime: #a2cA71;
+  --yellow: #F6E96B;
 }
 
 /* Navigation */
 .navbar {
-  background-color: #f6e64b;
+  background-color: #f6e96b;
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -76,7 +76,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: #F6E96B;
   text-align: center;
   background-image: url("images/home1.jpg");
   background-size: cover;
@@ -90,7 +90,6 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(57, 127, 57, 0.5);
 }
 
 .hero-content {
@@ -98,6 +97,8 @@ body {
   z-index: 1;
   max-width: 800px;
   padding: 0 1rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px
+    1px 0 #000, 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000;
 }
 
 .hero h1 {
@@ -126,12 +127,13 @@ body {
 }
 
 .btn-primary:hover {
-  background-color: #2d632d;
+  background-color: #387F39;
 }
 
 /* Sections */
 .section {
   padding: 4rem 1rem;
+  background-color: #a2ca71;
 }
 
 .container {
@@ -215,7 +217,7 @@ body {
 
 /* CTA section */
 .cta {
-  background-color: var(--lime-light);
+  background-color: #a2ca71;
   text-align: center;
   padding: 4rem 1rem;
 }
@@ -235,7 +237,7 @@ body {
 
 /* Footer */
 .footer {
-  background-color: #f8f8f8;
+  background-color: #ffffff;
   padding: 4rem 1rem;
   border-top: 1px solid #eee;
 }
