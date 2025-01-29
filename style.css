@@ -21,7 +21,7 @@ body {
 
 /* Navigation */
 .navbar {
-  background-color: white;
+  background-color: #f6e64b;
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -32,6 +32,18 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.brand-text {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #000;
 }
 
 .logo {
