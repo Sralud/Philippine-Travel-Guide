@@ -13,10 +13,10 @@ body {
 
 /* Custom properties for our color scheme */
 :root {
-  --forest-green: #387F39;
-  --lime-light: #BEDC74;
-  --lime: #a2cA71;
-  --yellow: #F6E96B;
+  --forest-green: #387f39;
+  --lime-light: #bedc74;
+  --lime: #a2ca71;
+  --yellow: #f6e96b;
 }
 
 /* Navigation */
@@ -47,10 +47,8 @@ body {
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: var(--forest-green);
-  text-decoration: none;
+  width: 40px;
+  height: auto;
 }
 
 .nav-links {
@@ -69,6 +67,15 @@ body {
   color: var(--forest-green);
 }
 
+/* Mobile menu */
+.mobile-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
 /* Hero section */
 .hero {
   position: relative;
@@ -76,7 +83,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #F6E96B;
+  color: #f6e96b;
   text-align: center;
   background-image: url("images/home1.jpg");
   background-size: cover;
@@ -97,8 +104,8 @@ body {
   z-index: 1;
   max-width: 800px;
   padding: 0 1rem;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px
-    1px 0 #000, 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 2px 2px 0 #000, -2px -2px 0 #000, 2px
+    -2px 0 #000, -2px 2px 0 #000;
 }
 
 .hero h1 {
@@ -127,7 +134,7 @@ body {
 }
 
 .btn-primary:hover {
-  background-color: #387F39;
+  background-color: #387f39;
 }
 
 /* Sections */
@@ -151,7 +158,7 @@ body {
 /* Destinations grid */
 .destinations-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
 }
 
@@ -183,7 +190,7 @@ body {
 
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 2rem;
   text-align: center;
 }
@@ -274,13 +281,55 @@ body {
 @media (max-width: 768px) {
   .nav-links {
     display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #f6e96b;
+    flex-direction: column;
+    padding: 1rem;
+    z-index: 10;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .mobile-menu-btn {
+    display: block;
   }
 
   .hero h1 {
     font-size: 2.5rem;
   }
 
+  .hero p {
+    font-size: 1rem;
+  }
+
   .section {
     padding: 2rem 1rem;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .destinations-grid,
+  .features-grid,
+  .transport-options {
+    grid-template-columns: 1fr;
+  }
+
+  .cta h2 {
+    font-size: 2rem;
+  }
+
+  .cta p {
+    font-size: 1rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
   }
 }
