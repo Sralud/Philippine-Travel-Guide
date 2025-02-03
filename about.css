@@ -1,0 +1,195 @@
+/* About page specific styles */
+.about-hero {
+    position: relative;
+    height: 40vh;
+    background-image: url("/placeholder.svg?height=400&width=1200");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #f6e96b;
+  }
+  
+  .about-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(57, 127, 57, 0.5);
+  }
+  
+  .about-hero-content {
+    position: relative;
+    z-index: 1;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+  .about-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Mission Section */
+  .mission-section {
+    background-color: #a2ca71;
+    padding: 4rem 0;
+  }
+  
+  .mission-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .mission-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .mission-text p + p {
+    margin-top: 1rem;
+  }
+  
+  .mission-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Values Section */
+  .values-section {
+    background-color: #bedc74;
+    padding: 4rem 0;
+  }
+  
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .value-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .value-card h3 {
+    color: var(--forest-green);
+    margin-bottom: 1rem;
+  }
+  
+  .value-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .value-card li {
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+  }
+  
+  .value-card li::before {
+    content: "•";
+    color: var(--forest-green);
+    position: absolute;
+    left: 0;
+  }
+  
+  /* Team Section */
+  .team-section {
+    background-color: #a2ca71;
+    padding: 4rem 0;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 4px solid white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team-member h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .team-member p {
+    color: var(--forest-green);
+  }
+  
+  /* Features Section */
+  .features-section {
+    background-color: #bedc74;
+    padding: 4rem 0;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .feature-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-box h3 {
+    color: var(--forest-green);
+    margin-bottom: 1rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-hero h1 {
+      font-size: 2rem;
+    }
+  
+    .mission-content {
+      grid-template-columns: 1fr;
+    }
+  
+    .values-grid,
+    .team-grid,
+    .features-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .mission-section,
+    .values-section,
+    .team-section,
+    .features-section {
+      padding: 2rem 0;
+    }
+  
+    .value-card,
+    .feature-box {
+      padding: 1.5rem;
+    }
+  }  
