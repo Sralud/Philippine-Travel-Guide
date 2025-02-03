@@ -3,20 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explore Philippines - Travel & Transportation</title>
+    <title>Contact Us - Explore Philippines</title>
+    <link rel="icon" type="image/png" href="images/icons8-island-on-water-64.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contacts.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <a href="#" class="logo">Explore Philippines</a>
+            <div class="brand">
+                <img src="images/icons8-island-on-water-64.png" alt="Island icon" class="logo">
+                <span class="brand-text">Explore Philippines</span>
+            </div>
+            <button class="mobile-menu-btn">☰</button>
             <div class="nav-links">
                 <a href="index.html">Home</a>
-                <a href="#destinations">Destinations</a>
-                <a href="#transport">Transport</a>
+                <a href="index.html#destinations">Destinations</a>
+                <a href="index.html#transport">Transport</a>
                 <a href="about.html">About</a>
                 <a href="contacts.html">Contact</a>
             </div>
         </div>
     </nav>
+
+    <section class="contact-hero">
+        <div class="contact-hero-content">
+            <h1>Contact Us</h1>
+            <p>Get in touch with us for your Philippine travel needs</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <div class="info-item">
+                        <i class="icon">📍</i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>143 Street, Cagayan de Oro City</p>
+                            <p>Philippines</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="icon">📞</i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+63 123 456 7890</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="icon">✉️</i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@explorephilippines.com</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-icon">📘</a>
+                        <a href="#" class="social-icon">📸</a>
+                        <a href="#" class="social-icon">🐦</a>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h2>Send us a Message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How can I book a tour?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>You can book a tour through our website by selecting your desired destination and following the booking process. Alternatively, you can contact our team directly for assistance.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What payment methods do you accept?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We accept major credit cards, bank transfers, and digital payment methods like PayPal. All payments are processed securely through our system.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can you help with visa requirements?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we can provide guidance and assistance with visa requirements for traveling to the Philippines. Our team will help you understand the process and required documentation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>About Us</h3>
+                    <p>We specialize in creating unforgettable Philippine travel experiences.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#destinations">Destinations</a></li>
+                        <li><a href="index.html#transport">Transport</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contacts.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>Cagayan de Oro City Office</li>
+                        <li>143 Street</li>
+                        <li>CDOC, Philippines</li>
+                        <li>info@explorephilippines.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
