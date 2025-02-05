@@ -140,7 +140,7 @@ body {
 /* Sections */
 .section {
   padding: 4rem 1rem;
-  background-color: #a2ca71;
+  background-color: #bedc74;
 }
 
 .container {
@@ -149,7 +149,7 @@ body {
 }
 
 .section-features {
-  background-color: #bedc74;
+  background-color: #a2ca71;
 }
 
 .section-title {
@@ -167,7 +167,7 @@ body {
 }
 
 .destination-card {
-  background: white;
+  background: #a2ca71;
   border-radius: 0.5rem;
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
