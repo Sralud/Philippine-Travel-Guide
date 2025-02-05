@@ -148,6 +148,10 @@ body {
   margin: 0 auto;
 }
 
+.section-features {
+  background-color: #bedc74;
+}
+
 .section-title {
   text-align: center;
   font-size: 2rem;
