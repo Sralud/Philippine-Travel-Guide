@@ -1,8 +1,8 @@
 /* About page specific styles */
 .about-hero {
     position: relative;
-    height: 40vh;
-    background-image: url("/placeholder.svg?height=400&width=1200");
+    height: 80vh;
+    background-image: url("images/aboutpg.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -19,7 +19,6 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(57, 127, 57, 0.5);
   }
   
   .about-hero-content {
