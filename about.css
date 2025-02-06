@@ -24,7 +24,10 @@
   .about-hero-content {
     position: relative;
     z-index: 1;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    max-width: 800px;
+    padding: 0 1rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 2px 2px 0 #000, -2px -2px 0 #000, 2px
+      -2px 0 #000, -2px 2px 0 #000;
   }
   
   .about-hero h1 {
@@ -34,8 +37,13 @@
   
   /* Mission Section */
   .mission-section {
-    background-color: #a2ca71;
+    background-color: #bedc74;
     padding: 4rem 0;
+  }
+
+  .container-mission {
+    max-width: 1200px;
+    margin: 0 auto;
   }
   
   .mission-content {
@@ -75,14 +83,13 @@
   }
   
   .value-card {
-    background-color: white;
+    background-color: #a2ca71;
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
   .value-card h3 {
-    color: var(--forest-green);
     margin-bottom: 1rem;
   }
   
