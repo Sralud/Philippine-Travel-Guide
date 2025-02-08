@@ -19,7 +19,6 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(57, 127, 57, 0.5);
   }
   
   .contact-hero-content {
@@ -87,7 +86,7 @@
   
   /* Contact Form */
   .contact-form {
-    background-color: white;
+    background-color: #a2ca71;
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
