@@ -13,7 +13,11 @@ Explore Philippines is a comprehensive web application designed to showcase the 
 - **Contact Form**: Easy-to-use contact form for inquiries and bookings.
 - **FAQ Section**: Comprehensive FAQ to address common traveler questions.
 
-
+## Benefits
+- **Comprehensive Travel Resource**: Serves as a simple Philippine travel information.
+- **Promotes Sustainable Tourism**: Encourages responsible travel and supports local communities.
+- **User-Friendly Interface**: Intuitive design makes trip planning easy and enjoyable.
+- **Cultural Insight**: Offers deep dives into Philippine culture, festivals, and traditions.
 
 
 Figma Design:
