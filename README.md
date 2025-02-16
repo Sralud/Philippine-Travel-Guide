@@ -20,6 +20,6 @@ Explore Philippines is a comprehensive web application designed to showcase the 
 - **Cultural Insight**: Offers deep dives into Philippine culture, festivals, and traditions.
 
 
-Figma Design:
+##Figma Design:
 
 ![image](https://github.com/user-attachments/assets/69d77fb3-d0c1-494b-88fa-cc8179f28a84)
